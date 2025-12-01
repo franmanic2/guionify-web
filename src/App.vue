@@ -134,7 +134,12 @@ import { RouterView, RouterLink } from 'vue-router'
   .nav {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+  
+  .nav a {
+    font-size: 0.8rem;
   }
 }
 
@@ -144,6 +149,7 @@ import { RouterView, RouterLink } from 'vue-router'
   justify-content: center;
   width: 100%;
   padding: 40px 20px;
+  overflow-x: hidden;
 }
 
 .content-area {
@@ -151,6 +157,11 @@ import { RouterView, RouterLink } from 'vue-router'
   max-width: 1200px;
 }
 
+@media (max-width: 768px) {
+  .main-content-wrapper {
+    padding: 20px 10px;
+  }
+}
 .footer {
   background-color: var(--surface-color);
   padding: 60px 0 20px;

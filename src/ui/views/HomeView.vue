@@ -70,8 +70,9 @@ h1 {
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 20px;
+  width: 100%;
 }
 
 .feature-card {
@@ -106,12 +107,18 @@ p {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding: 0 10px;
   }
   
   .hero {
     margin-bottom: 30px;
-    padding: 20px 0;
+    padding: 20px 10px;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    padding: 0 10px;
   }
   
   .icon {
@@ -120,21 +127,11 @@ p {
   
   .features-grid {
     grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
+    gap: 15px;
   }
   
-  .hero {
-    margin-bottom: 40px;
-    padding: 20px 0;
-  }
-  
-  .icon {
-    font-size: 2.5rem;
+  .feature-card {
+    padding: 20px;
   }
 }
 </style>
