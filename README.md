@@ -1,38 +1,66 @@
-# guionify-web
+# Guionify Web
 
-This template should help get you started developing with Vue 3 in Vite.
+**Guionify** es una herramienta web integral diseñada para creadores de contenido. Transforma ideas sueltas, borradores o guiones improvisados en contenido estructurado, limpio y listo para grabar.
 
-## Recommended IDE Setup
+Desarrollada con una arquitectura robusta basada en **Domain Driven Design (DDD)** para garantizar escalabilidad y mantenibilidad.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Funcionalidades Principales
 
-## Recommended Browser Setup
+Guionify ofrece un conjunto de herramientas especializadas para optimizar tu flujo de trabajo de creación de contenido:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **🧹 Limpieza Automática**: Elimina muletillas ("ehhh", "o sea"), repeticiones y formatea el texto para una lectura fluida.
+- **⚡ Estilo TikTok/Shorts**: Reescribe tu texto con frases cortas y directas de alto impacto, ideales para videos verticales.
+- **📝 Generador de Subtítulos**: Segmenta tu guion en bloques cronometrados listos para exportar.
+- **🎣 Generador de Hooks**: Crea ganchos virales automáticos basados en el tono que elijas (Dramático, Humor, Autoridad, Misterio).
+- **⏱️ Resumen Ultrabreve**: Condensa tu guion en versiones de 15-30 segundos.
+- **📹 Versión Extendida**: Expande ideas cortas para videos de formato largo (YouTube).
+- **🔄 Reemplazo Inteligente**: Herramienta para sustituir palabras clave o adaptar el tono (ej. cambiar de 1ª a 2ª persona).
+- **📖 Estructura Narrativa**: Organiza tus ideas automáticamente en una estructura de Storytelling (Hook, Contexto, Valor, CTA).
+- **📺 Teleprompter Integrado**: Modo de lectura en pantalla completa con control de velocidad, tamaño de fuente y pausa inteligente.
+- **💾 Exportación Multi-formato**: Descarga tus guiones en Texto Plano (.txt) o Subtítulos (.srt).
 
-## Customize configuration
+## 🛠️ Tecnologías Utilizadas
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Este proyecto ha sido construido utilizando tecnologías web modernas:
 
-## Project Setup
+- **Vue.js 3** (Composition API)
+- **Vite** (Build tool & Dev server)
+- **JavaScript** (ES6+)
+- **CSS3** (Variables CSS, Flexbox, Grid, Diseño Responsivo)
+- **Vue Router** (Navegación SPA)
 
-```sh
-npm install
-```
+## 👨‍💻 Desarrollador
 
-### Compile and Hot-Reload for Development
+Desarrollado con ❤️ por **Francisco Hurtado**.
 
-```sh
-npm run dev
-```
+- **Rol**: Frontend Developer & Software Engineer
+- **GitHub**: [@franmanic2](https://github.com/franmanic2)
+- **Instagram**: [@franmanic](https://instagram.com/franmanic)
+- **LinkedIn**: [Francisco Hurtado](https://linkedin.com/in/franciscohurtado)
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+## 📦 Instalación y Uso
+
+1.  Clonar el repositorio:
+
+    ```sh
+    git clone https://github.com/franmanic/guionify-web.git
+    ```
+
+2.  Instalar dependencias:
+
+    ```sh
+    npm install
+    ```
+
+3.  Ejecutar servidor de desarrollo:
+
+    ```sh
+    npm run dev
+    ```
+
+4.  Compilar para producción:
+    ```sh
+    npm run build
+    ```
