@@ -103,4 +103,19 @@ p {
   color: var(--text-muted);
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero {
+    margin-bottom: 40px;
+    padding: 20px 0;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+  }
+}
 </style>
