@@ -26,23 +26,9 @@ import { RouterView, RouterLink } from 'vue-router'
     </header>
 
     <main class="main-content-wrapper">
-      <aside class="ad-space left-ad">
-        <div class="ad-placeholder">
-          <span>PUBLICIDAD</span>
-          <span>ESPACIO PUBLICITARIO</span>
-        </div>
-      </aside>
-
       <div class="content-area">
         <RouterView />
       </div>
-
-      <aside class="ad-space right-ad">
-        <div class="ad-placeholder">
-          <span>PUBLICIDAD</span>
-          <span>ESPACIO PUBLICITARIO</span>
-        </div>
-      </aside>
     </main>
 
     <footer class="footer">
@@ -154,52 +140,15 @@ import { RouterView, RouterLink } from 'vue-router'
 
 .main-content-wrapper {
   flex: 1;
-  display: grid;
-  grid-template-columns: 200px minmax(0, 1fr) 200px;
-  gap: 20px;
-  max-width: 1600px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
   width: 100%;
   padding: 40px 20px;
 }
 
 .content-area {
-  min-width: 0;
   width: 100%;
-}
-
-.ad-space {
-  display: flex;
-  flex-direction: column;
-}
-
-.ad-placeholder {
-  border: 1px dashed var(--border-color);
-  border-radius: 12px;
-  height: 100%;
-  min-height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  gap: 5px;
-  opacity: 0.5;
-  text-align: center;
-}
-
-@media (max-width: 1600px) {
-  .main-content-wrapper {
-    grid-template-columns: 1fr;
-    padding: 20px;
-    max-width: 1000px;
-  }
-  
-  .ad-space {
-    display: none;
-  }
+  max-width: 1200px;
 }
 
 .footer {
