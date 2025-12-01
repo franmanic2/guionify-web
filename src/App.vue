@@ -190,7 +190,7 @@ import { RouterView, RouterLink } from 'vue-router'
   text-align: center;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
   .main-content-wrapper {
     grid-template-columns: 1fr;
     padding: 20px;
