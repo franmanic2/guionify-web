@@ -250,8 +250,16 @@ import { RouterView, RouterLink } from 'vue-router'
     align-items: center;
   }
   
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
   .footer-right {
     text-align: center;
+    width: 100%;
   }
   
   .social-icons {
@@ -261,6 +269,7 @@ import { RouterView, RouterLink } from 'vue-router'
   .footer-bottom {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
   }
 }
 </style>
