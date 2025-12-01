@@ -142,7 +142,7 @@ import { RouterView, RouterLink } from 'vue-router'
 .main-content-wrapper {
   flex: 1;
   display: grid;
-  grid-template-columns: 200px 1fr 200px;
+  grid-template-columns: 200px minmax(0, 1fr) 200px;
   gap: 20px;
   max-width: 1600px;
   margin: 0 auto;
@@ -151,7 +151,8 @@ import { RouterView, RouterLink } from 'vue-router'
 }
 
 .content-area {
-  min-width: 0; /* Prevent overflow */
+  min-width: 0;
+  width: 100%;
 }
 
 .ad-space {
@@ -173,9 +174,10 @@ import { RouterView, RouterLink } from 'vue-router'
   letter-spacing: 1px;
   gap: 5px;
   opacity: 0.5;
+  text-align: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .main-content-wrapper {
     grid-template-columns: 1fr;
     padding: 20px;
