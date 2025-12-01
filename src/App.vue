@@ -139,6 +139,19 @@ import { RouterView, RouterLink } from 'vue-router'
   color: white;
 }
 
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
 .main-content-wrapper {
   flex: 1;
   display: grid;
@@ -177,10 +190,11 @@ import { RouterView, RouterLink } from 'vue-router'
   text-align: center;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
   .main-content-wrapper {
     grid-template-columns: 1fr;
     padding: 20px;
+    max-width: 1000px;
   }
   
   .ad-space {
