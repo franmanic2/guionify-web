@@ -75,9 +75,13 @@ p {
 }
 
 label {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text-muted);
-  font-size: 0.9rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .actions {
